@@ -16,6 +16,9 @@
 @end
 
 @implementation ViewController
+- (IBAction)onBackButtonPressed:(id)sender {
+    [self.webView goBack];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
